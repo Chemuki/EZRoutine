@@ -1,2 +1,2 @@
 # EZRoutine
-App web about creating minimalist routines and lifestyle advices .
+Web app about creating minimalist routines and lifestyle advices .
