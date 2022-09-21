@@ -1,0 +1,16 @@
+{
+  "name": "ezroutine",
+  "private": true,
+  "description": "Web app about creating minimalist routines and lifestyle advices .",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chemuki/EZRoutine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Chemuki/EZRoutine/issues"
+  },
+  "homepage": "https://github.com/Chemuki/EZRoutine#readme",
+  "workspaces": [
+    "./apps/*"
+  ]
+}
