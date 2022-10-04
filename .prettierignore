@@ -1,0 +1,9 @@
+# statit files
+public/
+
+# next.js
+.next/
+out/
+
+# production
+build/

@@ -12,5 +12,12 @@
   "homepage": "https://github.com/Chemuki/EZRoutine#readme",
   "workspaces": [
     "./apps/*"
-  ]
+  ],
+  "scripts": {
+    "format": "prettier --write . "
+  },
+  "devDependencies": {
+    "prettier": "2.7.1",
+    "prettier-plugin-tailwindcss": "0.1.13"
+  }
 }
