@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	content: [
@@ -16,6 +18,10 @@ module.exports = {
 				danger: "#9E3432",
 				warning: "#FDE10D",
 				info: "#21A9E4",
+			},
+			fontFamily: {
+				sans: ['"Merriweather Sans"', ...defaultTheme.fontFamily.sans],
+				serif: ["Merriweather", ...defaultTheme.fontFamily.serif],
 			},
 		},
 	},
